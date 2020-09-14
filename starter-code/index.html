@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xylophone Music Web App</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="notes">
+      <button data-key="a" class="red">A</button>
+      <button data-key="s" class="orange">S</button>
+      <button data-key="d" class="yellow">D</button>
+      <button data-key="f" class="green">F</button>
+      <button data-key="g" class="teal">G</button>
+      <button data-key="h" class="blue">H</button>
+      <button data-key="j" class="purple">J</button>
+    </div>
+
+    <div id="audios">
+      <audio data-key="a" src="notes/1.wav"></audio>
+      <audio data-key="s" src="notes/2.wav"></audio>
+      <audio data-key="d" src="notes/3.wav"></audio>
+      <audio data-key="f" src="notes/4.wav"></audio>
+      <audio data-key="g" src="notes/5.wav"></audio>
+      <audio data-key="h" src="notes/6.wav"></audio>
+      <audio data-key="j" src="notes/7.wav"></audio>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
