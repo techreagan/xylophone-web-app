@@ -1,6 +1,6 @@
 const UInotes = document.querySelector('#notes')
 
-UInotes.addEventListener('keydown', (e) => {
+window.addEventListener('keydown', (e) => {
   playNotes(e.key)
 })
 
