@@ -2,7 +2,9 @@
 
 > Xylophone web app built with vanilla javascript.
 
-<!-- Live demo [Xylophone](https://techreagan.github.io/xylophone/) -->
+## YouTube
+
+If you want to know how I created this, check out the youtube tutorial created by me [Xylophone](https://youtu.be/Phh8SBuwNIE)
 
 ## Screenshot
 
